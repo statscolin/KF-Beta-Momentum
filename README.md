@@ -36,27 +36,6 @@ This project implements a rigorous quantitative backtesting framework with the f
 
 ---
 
-## ⚙️ Methodology
-
-The portfolio construction process can be summarized as:
-
-1. Estimate dynamic factor exposure:
-   \[
-   r_{i,t} = \beta_{i,t} r_{m,t} + \alpha_{i,t} + \epsilon_{i,t}
-   \]
-
-2. Generate alpha signal:
-   - 20-day cumulative returns (momentum factor)
-
-3. Solve constrained optimization:
-   - Maximize portfolio alpha
-   - Subject to beta neutrality band
-   - Long-only allocation constraints
-
-4. Rebalance every 20 trading days
-
----
-
 ## 🧪 Tech Stack
 
 - Python 3.11
