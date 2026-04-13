@@ -41,6 +41,5 @@ This project implements a rigorous quantitative backtesting framework with the f
 - Python 3.11
 - NumPy / Pandas
 - SciPy (optimization)
-- Matplotlib / Seaborn
-
+- Matplotlib
 ---
